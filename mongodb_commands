@@ -1,3 +1,6 @@
+db = https://github.com/buckyroberts/Source-Code-from-Tutorials/tree/master/Other/SampleJsonData
+
+
 use hockey
 db
 db.dropDatabase()
@@ -22,7 +25,7 @@ db.players.find().pretty()
 db.players.findOne()
 db.players.update(
 {"_id" : ObjectId("56f6bbf94c47446732ec6442")},{
-	
+
 	"position" : "Left Wing",
 	"id" : 8475761,
 	"weight" : 195,
